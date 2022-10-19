@@ -1,0 +1,14 @@
+.container {
+  margin-top: 10px;
+}
+
+.util {
+  display: flex;
+  justify-content: space-between;
+}
+
+.endOfGame {
+  font-size: 15pt;
+  position: absolute;
+  top: 0;
+}

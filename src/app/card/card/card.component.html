@@ -1,0 +1,12 @@
+<div
+  class="cardElement"
+  (click)="onCardClick()"
+  [ngClass]="{ startAnimation: this.startAnimation === true }"
+  [ngStyle]="{ visibility: itemVisibility == true ? 'visible' : 'hidden' }"
+>
+  <img
+    [src]="imagePath"
+    class="center"
+    [ngClass]="{ notFlipped: this.flipped === false }"
+  />
+</div>
